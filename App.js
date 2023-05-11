@@ -21,6 +21,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={{padding:10, fontWeight:'bold',color:'tomato', fontSize:20}}>Hey This is first expo build</Text>
+      <Text style={{padding:10, fontWeight:'bold',color:'green', fontSize:20}}>Send EAS Update </Text>
       <FlatList
         data={DATA}
         renderItem={renderItem}
